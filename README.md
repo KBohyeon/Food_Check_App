@@ -41,12 +41,35 @@
 
 ---
 
+### 📦 데이터셋
+
+- **출처 링크**: [Dataset](https://universe.roboflow.com/yong331/sk-shielders-module-project-3_koreanfood_detecting)
+- **클래스 수**: 총 20종
+
+```python
+names: ['Bibimbap', 'Bulgogi', 'Godeungeogui',
+'Jjambbong', 'Ramyun', 'Yangnyumchicken',
+'duinjangzzigae', 'gamjatang', 'gimbap',
+'jeyukbokum', 'jjajangmyeon', 'kalguksu',
+'kimchizzigae', 'mandu', 'pajeon', 'samgyetang',
+'samgyubsal', 'sundaegukbap', 'tteokbokki', 'tteokguk']
+
+```
+
 ## 결과 화면
 <table>
     <tr>
     <td><img src="./images/site.png" width="100%"></td>
   </tr>
   </table>
+
+---
+
+## 📌 향후 개선 방향
+
+- 실제 구현 모델은 YoloV8을 사용
+- 클래스 수 확장(현재 한식 종류에 의해서만 학습된 상태) -> 양식, 일식 등
+- 더 다양한 데이터셋 추가 확보
 
 ---
 
