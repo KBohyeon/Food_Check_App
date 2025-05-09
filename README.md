@@ -34,7 +34,7 @@
 
 <table>
     <tr>
-    <td><img src="./images/yolov5.drawio.png" width="70%"></td>
+    <td><img src="./images/yolov5.drawio.png" width="100%"></td>
   </tr>
   <tr>
 </table>
