@@ -16,12 +16,27 @@
 <table>
   <tr>
     <td align="center"><b>클래스별 F1-Confidence Curve</b></td>
-    <td align="center"><b>데이터셋 시각화 결과</b></td>
+  </tr>
+    <tr>
+    <td><img src="./images/F1_curve.png" width="70%"></td>
   </tr>
   <tr>
-    <td><img src="./images/F1_curve.png" width="100%"></td>
-    <td><img src="./images/labels.jpg" width="100%"></td>
+        <td align="center"><b>데이터셋 시각화 결과</b></td>
   </tr>
+    <tr>
+    <td><img src="./images/labels.jpg" width="70%"></td>
+  </tr>
+</table>
+
+---
+
+## 서비스 구성도
+
+<table>
+    <tr>
+    <td><img src="./images/yolov5.drawio.png" width="70%"></td>
+  </tr>
+  <tr>
 </table>
 
 ---
