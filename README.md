@@ -17,7 +17,7 @@
 
 ##🏗️ 사용기술
 
-- **Android STudio(java)**: 플랫폼 앱 개발
+- **Android Studio(java)**: 플랫폼 앱 개발
 - **PyTorch**: 분류 모델
 - **FastApi**: 음식 예측 서버
 - **MySql**: 로그인, 회원가입, 사용자 정보 등
