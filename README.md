@@ -3,8 +3,8 @@
 **Food_check_App**는 안드로이드 스튜디오로 개발한 어플에 접속 후 학습된 yolov5 모델을 이용하여 사진을 업로드시 음식의 이름과 칼로리를 표시해 줍니다.
 - foodcheck -> 사용자 정보, 음식 및 칼로리 정보 처리 PHP 파일
 - Yolov5 -> 음식이 학습된 yolov5의 runs 파일, 어플에서 보낸 이미지를 처리 및 yolov5실행을 해주는 fastapi 서버 파일
-- 어플은 Branches -> master
-- 
+- 어플 -> Branches -> master
+
 ---
 
 ## 🖥️ 프로젝트 개요
