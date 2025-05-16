@@ -1,9 +1,10 @@
-# Yolov5_Food_check
+# Food_check_App
 
-**Yolov5_Food_check**는 안드로이드 스튜디오로 개발한 어플에 접속 후 학습된 yolov5 모델을 이용하여 사진을 업로드시 음식의 이름과 칼로리를 표시해 줍니다.
+**Food_check_App**는 안드로이드 스튜디오로 개발한 어플에 접속 후 학습된 yolov5 모델을 이용하여 사진을 업로드시 음식의 이름과 칼로리를 표시해 줍니다.
 - foodcheck -> 사용자 정보, 음식 및 칼로리 정보 처리 PHP 파일
 - Yolov5 -> 음식이 학습된 yolov5의 runs 파일, 어플에서 보낸 이미지를 처리 및 yolov5실행을 해주는 fastapi 서버 파일
-
+- 어플은 Branches -> master
+- 
 ---
 
 ## 🖥️ 프로젝트 개요
@@ -19,9 +20,10 @@
 
 - **Android Studio(java)**: 플랫폼 앱 개발
 - **PyTorch**: 분류 모델
-- **FastApi**: 음식 예측 서버
-- **MySql**: 로그인, 회원가입, 사용자 정보 등
-- **PHP**: 사용자 정보, 칼로리, 음식 저장 및 표시
+- **FastApi**: 음식 예측 REST API
+- **Apache**: PHP 서버(mysql과 연결되어 사용자 정보, 칼로리, 음식 저장 및 처리)
+- **MySql**: 로그인, 회원가입, 사용자 정보 등 저장
+- **PHP**: 사용자 정보, 칼로리, 음식 저장 처리 및 표시
   
 ---
 
@@ -48,9 +50,26 @@
 
 <table>
     <tr>
-    <td><img src="./images/yolov5.drawio.png" width="100%"></td>
+    <td><img src="./images/app.png" width="100%"></td>
   </tr>
   <tr>
+</table>
+
+---
+
+## App 구성
+
+<table>
+  <tr>
+    <td align="center"><b>로그인 화면</b></td>
+    <td align="center"><b>음식 및 칼로리 예측</b></td>
+        <td align="center"><b>오늘 섭취한 칼로리</b></td>
+  </tr>
+    <tr>
+    <td><img src="./images/로그인화면.png" width="100%"></td>
+    <td><img src="./images/음식 및 칼로리 예측.png" width="100%"></td>
+    <td><img src="./images/오늘섭취한 칼로리.png" width="100%"></td>
+  </tr>
 </table>
 
 ---
@@ -67,23 +86,14 @@ names: ['Bibimbap', 'Bulgogi', 'Godeungeogui',
 'jeyukbokum', 'jjajangmyeon', 'kalguksu',
 'kimchizzigae', 'mandu', 'pajeon', 'samgyetang',
 'samgyubsal', 'sundaegukbap', 'tteokbokki', 'tteokguk']
-
 ```
-
-## 결과 화면
-<table>
-    <tr>
-    <td><img src="./images/site.png" width="100%"></td>
-  </tr>
-  </table>
 
 ---
 
 ## 📌 향후 개선 방향
 
-- 실제 구현 모델은 YoloV8을 사용
 - 클래스 수 확장(현재 한식 종류에 의해서만 학습된 상태) -> 양식, 일식 등
-- 더 다양한 데이터셋 추가 확보
+- 더 다양한 데이터셋 추가 확보(정확도 증가)
 
 ---
 
