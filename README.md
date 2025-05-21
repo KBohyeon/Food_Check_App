@@ -32,18 +32,23 @@
 
 <table>
   <tr>
-    <td align="center"><b>클래스별 F1-Confidence Curve</b></td>
+    <td align="center"><b>confusion_matrix(혼돈행렬)</b></td>
   </tr>
     <tr>
-    <td><img src="./images/F1_curve.png" width="70%"></td>
+    <td><img src="./images/confusion_matrix.png" width="70%"></td>
   </tr>
   <tr>
-        <td align="center"><b>데이터셋 시각화 결과</b></td>
+        <td align="center"><b>학습 로그 시각화 결과</b></td>
   </tr>
     <tr>
     <td><img src="./images/labels.jpg" width="70%"></td>
   </tr>
 </table>
+
+## 결과 설명
+confusion_matrix(혼돈행렬): 자장면과 김밥이 97%로 가장 이미지를 잘 분류 하고 있고 불고기가 47%로 제대로 분류를 못하고 있습니다.
+
+
 
 ---
 
@@ -107,8 +112,8 @@ names: ['Bibimbap', 'Bulgogi', 'Godeungeogui',
 
 ## 📌 향후 개선 방향
 
-- 클래스 수 확장(현재 한식 종류에 의해서만 학습된 상태) -> 양식, 일식 등
-- 더 다양한 데이터셋 추가 확보(정확도 증가)
+- 혼동이 심한 클래스에 대해 데이터 보강
+- 유사 클래스 간의 차이를 부각시킬 수 있는 전처리 또는 모델 개선(Yolov8, v11)
 
 ---
 
