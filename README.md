@@ -35,13 +35,13 @@
     <td align="center"><b>confusion_matrix(혼돈행렬)</b></td>
   </tr>
     <tr>
-    <td><img src="./images/confusion_matrix.png" width="70%"></td>
+    <td><img src="./images/confusion_matrix.png" width="100%"></td>
   </tr>
   <tr>
         <td align="center"><b>학습 로그 시각화 결과</b></td>
   </tr>
     <tr>
-    <td><img src="./images/results.png" width="70%"></td>
+    <td><img src="./images/results.png" width="100%"></td>
   </tr>
 </table>
 
