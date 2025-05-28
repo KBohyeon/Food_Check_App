@@ -89,13 +89,23 @@
 <table>
   <tr>
     <td align="center"><b>로그인 화면</b></td>
-    <td align="center"><b>음식 및 칼로리 예측</b></td>
-        <td align="center"><b>오늘 섭취한 칼로리</b></td>
+    <td align="center"><b>회원가입</b></td>
+        <td align="center"><b>이미지 업로드 전</b></td>
   </tr>
     <tr>
-    <td><img src="./images/로그인화면.png" width="100%"></td>
-    <td><img src="./images/음식 및 칼로리 예측.png" width="100%"></td>
-    <td><img src="./images/오늘섭취한 칼로리.png" width="100%"></td>
+    <td><img src="./images/로그인.PNG" width="100%"></td>
+    <td><img src="./images/회원가입.png" width="100%"></td>
+    <td><img src="./images/이미지 업로드 전.png" width="100%"></td>
+  </tr>
+    <tr>
+    <td align="center"><b>분석중</b></td>
+    <td align="center"><b>분석완료</b></td>
+        <td align="center"><b>일일섭취칼로리</b></td>
+  </tr>
+    <tr>
+    <td><img src="./images/분석중.png" width="100%"></td>
+    <td><img src="./images/분석완료.png" width="100%"></td>
+    <td><img src="./images/일일섭취칼로리.png" width="100%"></td>
   </tr>
 </table>
  
