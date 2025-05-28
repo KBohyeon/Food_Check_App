@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 메인 컬러 -->
+    <color name="colorPrimary">#FF6B6B</color>
+    <color name="colorPrimaryDark">#E55555</color>
+    <color name="colorAccent">#4ECDC4</color>
+
+    <!-- 보조 컬러 -->
+    <color name="save_button_color">#45B7D1</color>
+    <color name="result_background">#F8F9FA</color>
+    <color name="calorie_card_background">#FFFFFF</color>
+    <color name="info_card_background">#E8F5E8</color>
+
+    <!-- 배경 컬러 -->
+    <color name="background_light">#F5F7FA</color>
+    <color name="background_gradient">#FAFBFC</color>
+    <color name="input_background">#F8F9FA</color>
+    <color name="image_placeholder">#E9ECEF</color>
+
+    <!-- 텍스트 컬러 -->
+    <color name="text_primary">#2C3E50</color>
+    <color name="text_secondary">#7F8C8D</color>
+    <color name="text_hint">#BDC3C7</color>
+
+    <!-- 기본 컬러 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

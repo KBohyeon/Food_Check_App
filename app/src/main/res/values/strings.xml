@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 앱 기본 정보 -->
+    <string name="app_name">🍽️ FoodCheck</string>
+    <string name="app_description">음식 칼로리를 쉽게 확인하세요</string>
+
+    <!-- 메인 화면 -->
+    <string name="main_welcome">📱 음식 사진을 찍어보세요!</string>
+    <string name="main_subtitle">칼로리를 자동으로 계산해드려요</string>
+    <string name="btn_camera">📷 사진 촬영</string>
+    <string name="btn_gallery">🖼️ 갤러리</string>
+    <string name="btn_save">💾 오늘 먹은 음식 저장하기</string>
+    <string name="image_placeholder">📸 사진을 선택하면 이곳에 표시됩니다</string>
+    <string name="analysis_result">🔍 분석 결과</string>
+    <string name="result_placeholder">음식 사진을 업로드하면 칼로리 정보가 여기에 표시됩니다</string>
+
+    <!-- 로그인 화면 -->
+    <string name="login_title">FoodCheck</string>
+    <string name="login_subtitle">음식 칼로리를 쉽게 확인하세요</string>
+    <string name="btn_login">🚀 로그인</string>
+    <string name="btn_register">✨ 회원가입</string>
+    <string name="hint_id">아이디를 입력하세요</string>
+    <string name="hint_password">비밀번호를 입력하세요</string>
+    <string name="label_id">👤 아이디</string>
+    <string name="label_password">🔒 비밀번호</string>
+
+    <!-- 회원가입 화면 -->
+    <string name="register_title">회원가입</string>
+    <string name="register_subtitle">FoodCheck에 오신 것을 환영합니다!</string>
+    <string name="btn_register_complete">🎉 가입하기</string>
+    <string name="label_email">📧 이메일</string>
+    <string name="label_phone">📱 휴대폰 번호</string>
+    <string name="label_sort">🏷️ 분류</string>
+    <string name="hint_email">이메일을 입력하세요</string>
+    <string name="hint_phone">휴대폰 번호를 입력하세요</string>
+    <string name="hint_sort">분류를 입력하세요</string>
+
+    <!-- 내 정보 화면 -->
+    <string name="info_title">📊 오늘의 칼로리</string>
+    <string name="calorie_default">오늘 섭취한 칼로리: 0 kcal</string>
+    <string name="calorie_subtitle">건강한 하루를 위한 칼로리 관리</string>
+    <string name="nutrition_chart">📈 영양소 분포</string>
+    <string name="health_tip_title">💪 건강 팁</string>
+    <string name="health_tip_content">균형잡힌 식단과 적절한 운동으로 건강을 유지하세요!</string>
+    <string name="nutrition_tip">💡 탄수화물, 단백질, 지방의 균형잡힌 섭취가 중요해요</string>
+
+    <!-- 메뉴 -->
+    <string name="menu_profile">내 정보</string>
+    <string name="menu_logout">로그아웃</string>
+
+    <!-- 공통 -->
+    <string name="loading">로딩 중...</string>
+    <string name="error">오류가 발생했습니다</string>
+    <string name="success">성공!</string>
+</resources>
